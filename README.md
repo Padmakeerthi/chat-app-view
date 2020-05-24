@@ -17,5 +17,6 @@ sass --watch app.scss app.css
 * Now, open the `index.html` using `Google Chrome` or any other browser.
 
 <strong>Note:</strong>
-* This project only depends on the `Boostrap` library.
+* This project only depends on the `Bootstrap` library.
+* Made the layout to be responsive using the required `Bootstrap` classes. 
 
