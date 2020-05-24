@@ -1,6 +1,6 @@
 @import "node_modules/bootstrap/scss/bootstrap"
 
-// Side Nav bar 
+// Side Nav bar
 
 .other-page-links
   background-color: $blue
@@ -10,15 +10,15 @@
 
 .other-page-link
   margin: 16px
-  
+ 
 .base-messaging-pane
   margin-left: 70px
   height: 100%
-  
+ 
 .messaging-tab
   margin: 0
-  height: 100% 
-  
+  height: 100%
+ 
 // Favorities
 .fav-item
   width: 100%
@@ -30,14 +30,14 @@
   background-color: $indigo
   color: $white
   transition: none
-  
+ 
 .fav-item:hover
   background-color: $blue
   color: $white
-  
+ 
 .add-more-people
   float: right
-  
+ 
 .active-msg-count
   float: right
   background-color: $white
@@ -50,77 +50,72 @@
 .side-bar
   background-color: $indigo
   color: $white
-  
+ 
 .search-icon
   position: absolute
   right: 0
   padding: 8px 27px
-  
+ 
 .flex-container
   display: flex
-  
+ 
 // Chat messaging pane
 .display-picture
   margin: 30px 0 0 0
   width: 50%
 
-.status-msg 
+.status-msg
    opacity:0.5
    
 %past-message
   border-radius: 3px
-  font-size: 14px
+  font-size: $font-size-sm
   margin: 15px 0 15px 0
   padding: 5px 10px 5px 12px
   width: 100%
 
-.received-with-msg 
+.received-with-msg
   @extend %past-message
-  background: #ebebeb none repeat scroll 0 0
-  color: #646464
+  background: $gray-200 none repeat scroll 0 0
+  color: $black
 
 .sent-with-msg
   @extend %past-message
-  background: #05728f none repeat scroll 0 0
-  color:#fff
+  background: $gray-800 none repeat scroll 0 0
+  color: $white
 
-.compose-new-msg 
+.compose-new-msg
   input
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0
+    background: $white none repeat scroll 0 0
     border: medium none
-    color: #4c4c4c
-    font-size: 15px
-    min-height: 48px
+    color: $gray-700
+    font-size: $font-size-sm
+    min-height: 50px
     width: 100%
 
-.compose-new-msg 
-  border-top: 1px solid #c4c4c4
+.compose-new-msg
+  border-top: 1px solid $gray-400
   position: relative
 
 .submit-message
   height: 33px
   top: 11px
   width: 33px
-  
+ 
 .chat-window
   margin: 0 0 60px 0
-  
+ 
 .footer
    position: fixed
    bottom: 0
-   width: 80%
+   width: 85%
    height: 50px
    background: $white
    overflow: auto
    
-// Base page related   
+// Base page related  
 .base-page
   height: 100vh
 
 .settings-menu
   float: right
-   
-
-
-
-
