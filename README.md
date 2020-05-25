@@ -7,7 +7,7 @@ Refer to this [image](chat-app-view.JPG)
 * Clone this GitHub respository.
 * Install sass node module.
 ```
-npm install sass
+npm install -g sass
 ```
 * Move into the `chat-app-view` repository.
 * Open `cmd` and run below command.
